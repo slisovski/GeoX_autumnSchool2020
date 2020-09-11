@@ -1,0 +1,32 @@
+{{ partial "header" . }}
+
+<main class = "content-box">
+
+    <div class="intro">
+
+        <div class="avatar">
+            <img class="img-responsive" src="{{ .Site.BaseURL }}img/{{ .Site.Params.logo }}" alt="Whoopsies, this is my bad side!" style = "margin: 0 auto;">
+            <h1>{{ .Title }}</h1>
+        </div>
+        
+        <div style = "margin-top: 5px">
+            <h5>{{"The 2020 Geo.X Autumn School aims to bring together Geo.Data Science and Geo.Society fellows of the Young Academy for an intensive five-day collaboration. The Fellow Group consists of 30 PhD and Postdocs at the interface of Geosciences and Data Science or Social Sciences. Within the sessions they will join forces in working on interdisciplinary research questions, and accompany this short-term process with public outreach products."}}</h5>
+        </div>
+        
+        <div style = "margin-top: 35px">
+            <h4>{{"The autumn school will take place from 5th October to 9th October 2020 at the Henry Ford Bau of FU Berlin."}}</h4>
+        </div>
+        
+        <div style = "padding: 40px">
+            <img src="img/GeoNetwork.png" alt="Whoopsies, this is my bad side!" style = "margin: 0 auto;">
+        </div>
+        
+        <div style = "margin-top: 5px">
+            <h4>{{"The organisers will take all necessary measures to minimize the risk of exposure to COVID-19 following all recommendations of the World Health Organization (WHO). Short-term cancellation is possible."}}</h4>
+        </div>
+
+    </div>
+
+</main>
+
+{{ partial "footer" . }}

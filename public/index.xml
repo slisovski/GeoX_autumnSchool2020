@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Autumn School 2020</title>
+    <link>/</link>
+    <description>Recent content on Autumn School 2020</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Consequences of changing seasonality across scales</title>
+      <link>/project/project1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/project1/</guid>
+      <description>Introduction Seasonality is one of the most influencing pattern on earth. Global variation in seasonal climate is arguably the most dominant external driver in natural systems that underpins the formation of the earth’s biomes and almost all biological processes therein. Reproduction, food-web structures, host-pathogen interactions, movements, all vary with the seasons. Yet not only the living world is affected, geological processes such as erosion, river dynamics, earthquakes are somewhat driven or triggered by seasonal pattern such as snowmelt, monsoon and rainfall.</description>
+    </item>
+    
+    <item>
+      <title>Become a mentor</title>
+      <link>/mentors/become_a_mentor/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/mentors/become_a_mentor/</guid>
+      <description>Explanation on what we have in mind regarding mentors etc..
+Submission form for mentors:
+Name:
+Project specific or general:
+Keywords:</description>
+    </item>
+    
+  </channel>
+</rss>
