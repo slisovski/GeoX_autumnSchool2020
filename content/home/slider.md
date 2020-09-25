@@ -17,202 +17,91 @@ height = "325px"
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
   title = ""
-  content = "\"Alison was knowledgeable but at the same time very approachable. She had a sense of humor and very engaging style that gave me confidence that I can do this.\""
-  align = "center"  # Choose `center`, `left`, or `right`.
+  content = "\"Consequences of changing seasonality across scales\""
+  align = "left"  # Choose `center`, `left`, or `right`.
 
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
   overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/pomegranate.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.4  # Darken the image. Value in range 0-1.
+  overlay_img = "headers/Seas.png"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.2  # Darken the image. Value in range 0-1.
 
   # Call to action button (optional).
   #   Activate the button by specifying a URL and button label below.
   #   Deactivate by commenting out parameters, prefixing lines with `#`.
-  cta_label = "see my projects"
-  cta_url = "/projects"
+  cta_label = "see project"
+  cta_url = "/project/seasonality"
   cta_icon_pack = "fas"
-  cta_icon = "spa"
+  cta_icon = "file-alt"
 
 [[item]]
   title = ""
-  content = "\"Alison is a phenomenal teacher, and her enthusiasm for the subject matter is palpable.\""
-  align = "left"
-
-  overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/daisy.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.4  # Darken the image. Value in range 0-1.
-  
-  cta_label = "see my projects"
-  cta_url = "/projects"
-  cta_icon_pack = "fas"
-  cta_icon = "spa"
-
-[[item]]
-  title = ""
-  content = "\"Alison is an incredible instructor! Also the content and exercises were very well thought-out and cultivated. Everything ran smoothly.\""
+  content = "\"How to overcome the ‘maybe’ explanations of ‘why’: explaining causality?\""
   align = "right"
 
   overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/tulip.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.4  # Darken the image. Value in range 0-1.
-
-  cta_label = "see my projects"
-  cta_url = "/projects"
+  overlay_img = "headers/Causal.png"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.2  # Darken the image. Value in range 0-1.
+  
+  cta_label = "see project"
+  cta_url = "/projects/causality"
   cta_icon_pack = "fas"
-  cta_icon = "spa"
+  cta_icon = "file-alt"
+  
   
 [[item]]
   title = ""
-  content = "\"I really liked the content + Alison's teaching style.\""
-  align = "center"
+  content = "\"Have you ever heard of Geoethics?\""
+  align = "centre"
 
   overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/bees.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.4  # Darken the image. Value in range 0-1.
-
-  cta_label = "see my projects"
-  cta_url = "/projects"
-  cta_icon_pack = "fas"
-  cta_icon = "spa"
+  overlay_img = "headers/geoethics.png"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.2  # Darken the image. Value in range 0-1.
   
+  cta_label = "see project"
+  cta_url = "/project/geoethics"
+  cta_icon_pack = "fas"
+  cta_icon = "file-alt"
+
 [[item]]
   title = ""
-  content = "\"Alison was great - very knowledgeable, accessible and good sense of humor.\""
+  content = "\"Involving local communities interactively in the research stage of data acquisition\""
   align = "left"
 
   overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/daisy-pink.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.4  # Darken the image. Value in range 0-1.
-
-  cta_label = "see my projects"
-  cta_url = "/projects"
-  cta_icon_pack = "fas"
-  cta_icon = "spa"
+  overlay_img = "headers/Community.png"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.2  # Darken the image. Value in range 0-1.
   
+  cta_label = "see project"
+  cta_url = "/project/communityInteraction"
+  cta_icon_pack = "fas"
+  cta_icon = "file-alt"
+
 [[item]]
   title = ""
-  content = "\"Alison Hill was a patient instructor who listened to questions and carefully answered them. Clearly, the content had a LOT of thought put into it. Even the timing of the workshop was pretty perfect.\""
+  content = "\"Let the data talk on their own? How to explain show and narrate data in short videos\""
   align = "right"
 
   overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/bats.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.4  # Darken the image. Value in range 0-1.
-
-  cta_label = "see my projects"
-  cta_url = "/projects"
+  overlay_img = "headers/data.png"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.2  # Darken the image. Value in range 0-1.
+  
+  cta_label = "see project"
+  cta_url = "/project/letDataTalk"
   cta_icon_pack = "fas"
-  cta_icon = "spa"
+  cta_icon = "file-alt"
   
 [[item]]
   title = ""
-  content = "\"It [was] so well-organized and Alison is so awesome as an instructor.\""
-  align = "center"
-
-  overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/daisy-gray.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.4  # Darken the image. Value in range 0-1.
-
-  cta_label = "see my projects"
-  cta_url = "/projects"
-  cta_icon_pack = "fas"
-  cta_icon = "spa"
-  
-[[item]]
-  title = ""
-  content = "\"Alison is excellent!\""
+  content = "\"What Killed the Dinosaurs? A comparative extinction selectivity investigation\""
   align = "left"
 
   overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/pheasants.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.4  # Darken the image. Value in range 0-1.
-
-  cta_label = "see my projects"
-  cta_url = "/projects"
-  cta_icon_pack = "fas"
-  cta_icon = "spa"
+  overlay_img = "headers/dinos.png"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.2  # Darken the image. Value in range 0-1.
   
-[[item]]
-  title = ""
-  content = "\"Alison is an absolutely amazing presenter! Really really enjoyed the workshop. Thank you!\""
-  align = "right"
-
-  overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/pomegranate.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.4  # Darken the image. Value in range 0-1.
-
-  cta_label = "see my projects"
-  cta_url = "/projects"
+  cta_label = "see project"
+  cta_url = "/project/dinosaurs"
   cta_icon_pack = "fas"
-  cta_icon = "spa"
-  
-[[item]]
-  title = ""
-  content = "\"Alison was a good presenter, trying to make difficult topics understandable and having good energy and enthusiasm for the subject matter.\""
-  align = "center"
-
-  overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/birds.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
-
-  cta_label = "see my projects"
-  cta_url = "/projects"
-  cta_icon_pack = "fas"
-  cta_icon = "spa"
-  
-[[item]]
-  title = ""
-  content = "\"This was an inspiring workshop! I look forward to trying out what I learned in real life!\""
-  align = "left"
-
-  overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/daisy.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.4  # Darken the image. Value in range 0-1.
-
-  cta_label = "see my projects"
-  cta_url = "/projects"
-  cta_icon_pack = "fas"
-  cta_icon = "spa"
-  
-[[item]]
-  title = ""
-  content = "\"I enjoyed your workshop and learned a lot. Thanks for your enthusiastic way of teaching.\""
-  align = "right"
-
-  overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/bats.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.4  # Darken the image. Value in range 0-1.
-
-  cta_label = "see my projects"
-  cta_url = "/projects"
-  cta_icon_pack = "fas"
-  cta_icon = "spa"
-  
-[[item]]
-  title = ""
-  content = "\"Alison is fantastic, did her best to explain not so easy to understand concepts.\""
-  align = "center"
-
-  overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/bees.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.4  # Darken the image. Value in range 0-1.
-
-  cta_label = "see my projects"
-  cta_url = "/projects"
-  cta_icon_pack = "fas"
-  cta_icon = "spa"
-  
-[[item]]
-  title = ""
-  content = "\"I appreciated the thoughtfulness of the workshop. I liked that things were broken down and we were building up an understanding and code.\""
-  align = "left"
-
-  overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/birds.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.4  # Darken the image. Value in range 0-1.
-
-  cta_label = "see my projects"
-  cta_url = "/projects"
-  cta_icon_pack = "fas"
-  cta_icon = "spa"
+  cta_icon = "file-alt"
 +++

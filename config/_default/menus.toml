@@ -4,33 +4,21 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "About"
-  url = "/about"
+  name = "Program"
+  url = "/program"
   weight = 10
-  
-[[main]]
-  name = "Blog"
-  url = "/post"
-  weight = 20
-
-[[main]]
-  name = "Talks"
-  url = "/talks"
-  weight = 30
 
 [[main]]
   name = "Projects"
   url = "/projects"
-  weight = 40
+  weight = 20  
+  
+[[main]]
+  name = "Become a Mentor"
+  url = "/mentor"
+  weight = 30
 
 [[main]]
-  name = "Resume"
-  url = "/resume"
-  weight = 50
-
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[main]]
-#    name = "CV"
-#    url = "files/cv.pdf"
-#    weight = 70
+  name = "Info"
+  url = "/info"
+  weight = 40
