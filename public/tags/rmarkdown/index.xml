@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rmarkdown | Autumn School 2020</title>
+    <link>/tags/rmarkdown/</link>
+      <atom:link href="/tags/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
+    <description>rmarkdown</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Simeon Lisovski 2020</copyright><lastBuildDate>Tue, 31 Mar 2020 09:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/logo-512x512.png</url>
+      <title>rmarkdown</title>
+      <link>/tags/rmarkdown/</link>
+    </image>
+    
+    <item>
+      <title>Sharing on Short Notice</title>
+      <link>/talk/2020-sharing-short-notice/</link>
+      <pubDate>Tue, 31 Mar 2020 09:00:00 +0000</pubDate>
+      <guid>/talk/2020-sharing-short-notice/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This webinar was designed to help educators who needed to quickly transition to remote teaching due to COVID-19.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Educators create a lot of files for teaching- slides, exercises, solutions, assignments, data, figures- that all ultimately need to be shared with other people. Having a link for sharing your teaching materials can save you time and pain, but it is hard to get started if you’ve never shared your resources online before. In this webinar, we’ll give a tour of the R Markdown ecosystem for educators that you can start to use right away. We’ll show how it can help you make your teaching more shareable, reproducible, and resilient.&lt;/p&gt;
+&lt;p&gt;Read the accompanying Q&amp;amp;A blog post on the 
+&lt;a href=&#34;https://education.rstudio.com/blog/2020/04/sharing-on-short-notice/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio Education blog&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Communicating with R Markdown Workshop</title>
+      <link>/talk/2019-ysc-workshop/</link>
+      <pubDate>Mon, 30 Sep 2019 09:00:00 +0000</pubDate>
+      <guid>/talk/2019-ysc-workshop/</guid>
+      <description>
+
+
+&lt;p&gt;A full-day workshop for &lt;i class=&#34;fab fa-r-project&#34;&gt;&lt;/i&gt; users who want to get more out of &lt;a href=&#34;https://rmarkdown.rstudio.com/&#34;&gt;R Markdown&lt;/a&gt; (and friends). In this workshop, you will create, publish, and share some beautiful data products. You’ll learn to make:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Parameterized reports&lt;/li&gt;
+&lt;li&gt;Version-controlled R Markdown projects&lt;/li&gt;
+&lt;li&gt;Templates within a package&lt;/li&gt;
+&lt;li&gt;Shareable &lt;a href=&#34;https://rstudio.github.io/distill/basics.html&#34;&gt;scientific/technical articles&lt;/a&gt;, &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/xaringan.html&#34;&gt;slides&lt;/a&gt;, &lt;a href=&#34;https://rmarkdown.rstudio.com/flexdashboard/&#34;&gt;dashboards&lt;/a&gt;, and &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/websites.html&#34;&gt;websites&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R Markdown for Medicine Workshop</title>
+      <link>/talk/2019-rmed-rmd4medicine/</link>
+      <pubDate>Thu, 12 Sep 2019 08:00:00 +0000</pubDate>
+      <guid>/talk/2019-rmed-rmd4medicine/</guid>
+      <description>
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Meet blogdown</title>
+      <link>/talk/2019-rsc-blogdown/</link>
+      <pubDate>Tue, 15 Jan 2019 16:00:00 +0000</pubDate>
+      <guid>/talk/2019-rsc-blogdown/</guid>
+      <description>
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Meet bookdown</title>
+      <link>/talk/2019-rsc-bookdown/</link>
+      <pubDate>Tue, 15 Jan 2019 14:00:00 +0000</pubDate>
+      <guid>/talk/2019-rsc-bookdown/</guid>
+      <description>
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Meet flexdashboard</title>
+      <link>/talk/2019-rsc-flexdashboard/</link>
+      <pubDate>Tue, 15 Jan 2019 11:00:00 +0000</pubDate>
+      <guid>/talk/2019-rsc-flexdashboard/</guid>
+      <description>
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Meet xaringan</title>
+      <link>/talk/2019-rsc-xaringan/</link>
+      <pubDate>Tue, 15 Jan 2019 09:00:00 +0000</pubDate>
+      <guid>/talk/2019-rsc-xaringan/</guid>
+      <description>
+
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>flexdashboard | Autumn School 2020</title>
+    <link>/tags/flexdashboard/</link>
+      <atom:link href="/tags/flexdashboard/index.xml" rel="self" type="application/rss+xml" />
+    <description>flexdashboard</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Simeon Lisovski 2020</copyright><lastBuildDate>Tue, 15 Jan 2019 11:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/logo-512x512.png</url>
+      <title>flexdashboard</title>
+      <link>/tags/flexdashboard/</link>
+    </image>
+    
+    <item>
+      <title>Meet flexdashboard</title>
+      <link>/talk/2019-rsc-flexdashboard/</link>
+      <pubDate>Tue, 15 Jan 2019 11:00:00 +0000</pubDate>
+      <guid>/talk/2019-rsc-flexdashboard/</guid>
+      <description>
+
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>
