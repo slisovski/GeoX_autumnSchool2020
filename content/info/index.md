@@ -7,9 +7,7 @@ date: "2020-09-24T00:00:00Z"
 image:
   caption:
   focal_point: Smart
-
 categories:
-- research challenge
 tags:
 ---
 

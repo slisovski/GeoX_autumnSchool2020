@@ -2,13 +2,10 @@
 aliases: [up-and-running-with-blogdown]
 projects: [up-running-blogdown]
 title: Preliminary  program
-authors: [alison]
-date: '2017-06-12'
-tags: [blogdown]
+authors: []
+date: '2020-09-27'
+tags: []
 categories:
-  - blogdown
-  - hugo
-  - netlify
 summary: 
 image:
   caption: ''
