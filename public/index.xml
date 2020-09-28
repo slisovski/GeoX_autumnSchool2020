@@ -229,7 +229,7 @@ brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/2d7e602ad4
 
 &lt;p&gt;We invite all Geo.X supervisors and seniors to participate in our 2020 Autumn School. Obviously you can be part of the School and attend all sessions as well as sign up for a research challenge. However, you can also become a remote mentor for either a research challenge or a specific topic that you consider important to one or more of the topics (e.g. meta analyses). If you are interested, please sign up using the form below. You will be added as a mentor in the project pages. The idea is, that you will be available for a video chat during an agreed time and day to discuss the progress if the research challenge and provide input.&lt;/p&gt;
 
-&lt;form name=&#34;contact&#34; class=&#34;contact-form width-normal&#34; action=&#34;mentor/thank-you&#34; method=&#34;POST&#34; data-netlify=&#34;true&#34;&gt;
+&lt;form name=&#34;contact&#34; class=&#34;contact-form width-normal&#34; action=&#34;/mentor/thank-you&#34; method=&#34;POST&#34; data-netlify=&#34;true&#34;&gt;
     &lt;input type=&#34;hidden&#34; name=&#34;form-name&#34; value=&#34;contact&#34; /&gt;
     
     &lt;!-- Text input--&gt;

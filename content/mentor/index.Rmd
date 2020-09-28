@@ -5,7 +5,7 @@ title: "Mentorship"
 We invite all Geo.X supervisors and seniors to participate in our 2020 Autumn School. Obviously you can be part of the School and attend all sessions as well as sign up for a research challenge. However, you can also become a remote mentor for either a research challenge or a specific topic that you consider important to one or more of the topics (e.g. meta analyses). If you are interested, please sign up using the form below. You will be added as a mentor in the project pages. The idea is, that you will be available for a video chat during an agreed time and day to discuss the progress if the research challenge and provide input.
 
 <!--html_preserve-->
-<form name="contact" class="contact-form width-normal" action="mentor/thank-you" method="POST" data-netlify="true">
+<form name="contact" class="contact-form width-normal" action="/mentor/thank-you" method="POST" data-netlify="true">
     <input type="hidden" name="form-name" value="contact" />
     
     <!-- Text input-->
