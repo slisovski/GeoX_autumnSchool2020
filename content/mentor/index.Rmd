@@ -21,7 +21,7 @@ knitr::opts_chunk$set(eval = FALSE, collapse = TRUE, comment = NA, tidy = FALSE)
 We invite all Geo.X supervisors and seniors to participate in our 2020 Autumn School. There are several (not mutually exclusive) options for your participation:
 
 * Take part in the full 2020 Autumn School
-* Join the Roadmap and Panel discussion (Tuesday) as well as the final presentation (Friday). Either in persion or via video call
+* Join the Roadmap and Panel discussion (Monday) as well as the final presentation (Friday). Either in persion or via video call
 * Become a mentor
 
 # What is a mentor
