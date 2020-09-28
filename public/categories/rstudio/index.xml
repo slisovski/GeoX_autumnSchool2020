@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo | Autumn School 2020</title>
-    <link>/categories/hugo/</link>
-      <atom:link href="/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
-    <description>hugo</description>
+    <title>Rstudio | Autumn School 2020</title>
+    <link>/categories/rstudio/</link>
+      <atom:link href="/categories/rstudio/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rstudio</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Simeon Lisovski 2020</copyright><lastBuildDate>Mon, 28 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/logo-512x512.png</url>
-      <title>hugo</title>
-      <link>/categories/hugo/</link>
+      <title>Rstudio</title>
+      <link>/categories/rstudio/</link>
     </image>
     
     <item>

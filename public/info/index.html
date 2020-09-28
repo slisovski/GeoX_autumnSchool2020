@@ -23,7 +23,7 @@
   
     
   
-  <meta name="description" content="This website is made with github, the blogdown R package, and the Academic theme for Hugo. The infrastructure allows you to directly contribute to the website. If you are familiar with RStudio, R Markdwon and GitHub, you can start immediately.">
+  <meta name="description" content="A guide to getting up and running with blogdown, GitHub, and RStudio">
 
   
   <link rel="alternate" hreflang="en-us" href="/info/">
@@ -267,13 +267,13 @@
   <meta property="og:site_name" content="Autumn School 2020">
   <meta property="og:url" content="/info/">
   <meta property="og:title" content="Website contributions | Autumn School 2020">
-  <meta property="og:description" content="This website is made with github, the blogdown R package, and the Academic theme for Hugo. The infrastructure allows you to directly contribute to the website. If you are familiar with RStudio, R Markdwon and GitHub, you can start immediately."><meta property="og:image" content="/img/logo-512x512.png">
+  <meta property="og:description" content="A guide to getting up and running with blogdown, GitHub, and RStudio"><meta property="og:image" content="/img/logo-512x512.png">
   <meta property="twitter:image" content="/img/logo-512x512.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-09-24T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2020-09-28T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-09-24T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-09-28T00:00:00&#43;00:00">
   
 
   
@@ -493,6 +493,16 @@
 
   
   
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/simeon/">Simeon</a></span>
+  </div>
+  
+  
 
   
 
@@ -505,6 +515,10 @@
   
 
   
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/rstudio/">Rstudio</a>, <a href="/categories/blogdown/">blogdown</a>, <a href="/categories/hugo/">hugo</a>, <a href="/categories/netlify/">netlify</a></span>
   
 
 </div>
@@ -532,68 +546,83 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>This website is made with 
-<a href="https://github.com/slisovski/GeoX_autumnSchool2020" target="_blank" rel="noopener">github</a>, the 
-<a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener">blogdown</a> R package, and the Academic theme for 
-<a href="https://themes.gohugo.io/academic/" target="_blank" rel="noopener">Hugo</a>. The infrastructure allows you to directly contribute to the website. If you are familiar with RStudio, R Markdwon and GitHub, you can start immediately. Other options via text editor and git are possible too. However, a short introduction migth help to get you started:</p>
-<h2 id="initial-setup">Initial setup</h2>
-<h3 id="cloning-the-homepage-repo">Cloning the homepage repo</h3>
+      
+
+<div id="TOC">
 <ul>
-<li>Make a github account 
-<a href="https://github.com/" target="_blank" rel="noopener">here</a>.</li>
-<li>Ask Simeon (
-<a href="mailto:simeon.lisovski@gmail.com">simeon.lisovski@gmail.com</a>) to be added as a collaborator to the repo.</li>
-<li>Open your terminal (or R studio) and navigate to a directory where you&rsquo;d like to clone the repository.</li>
-<li>Run this command in your terminal (or in git bash or while you create a blockdown project in RStudio):</li>
+<li><a href="#read-up-on-blogdown"><span class="toc-section-number">1</span> Read up on blogdown</a></li>
+<li><a href="#setup"><span class="toc-section-number">2</span> Setup</a></li>
+<li><a href="#in-r-studio"><span class="toc-section-number">3</span> In R Studio</a></li>
+<li><a href="#caveats-disclaimers-etc."><span class="toc-section-number">4</span> Caveats, disclaimers, etc.</a></li>
 </ul>
-<pre><code>git clone --recursive -j8 https://github.com/slisovski/GeoX_autumnSchool2020.git
-</code></pre>
+</div>
+
+<p>This website is made with <a href="https://github.com/slisovski/GeoX_autumnSchool2020">github</a>, the <a href="https://bookdown.org/yihui/blogdown/">blogdown</a> R package, and the Academic theme for <a href="https://themes.gohugo.io/academic/">Hugo</a>.</p>
+<p>There are many ways to edit this website. I consider the <em>R Studio</em> way the easiest. So, if you want to edit your research challange or contribute to the website, the information below will (hopefully) help you getting up and running with R blogdown and our Autumn School 2020 website.</p>
+<div id="read-up-on-blogdown" class="section level1">
+<h1><span class="header-section-number">1</span> Read up on blogdown</h1>
+<p>Before you start, you may want to have some background information:</p>
 <ul>
-<li>Check that you&rsquo;re on the master branch both in the root directory, as well as in the subfolder public.</li>
-<li>In the root directory, run the following commands:</li>
+<li><a href="https://bookdown.org/yihui/blogdown/"><code>blogdown</code>: Creating Websites with R Markdown</a> by Yihui Xie and Amber Thomas</li>
+<li><a href="http://amber.rbind.io/blog/2016/12/19/creatingsite/">Making a Website Using <code>blogdown</code>, Hugo, and GitHub pages</a> also by Amber Thomas</li>
 </ul>
-<pre><code>git branch 
-cd public
-git branch 
-cd ../themes/academic
-git branch
-</code></pre>
-<p>You should be on the branch <code>master</code> for all three of them. If not, then type <code>git checkout master</code> to change the branch (in each of the three directories).</p>
-<h3 id="installing-hugo-not-nessesary-if-you-work-with-rstudio">Installing <code>hugo</code> (not nessesary if you work with RStudio)</h3>
+</div>
+<div id="setup" class="section level1">
+<h1><span class="header-section-number">2</span> Setup</h1>
+<p>You need to have R and RStudio installed (make sure to have a recent version &gt; 3.4).</p>
 <ul>
-<li>First, install <code>homebrew</code> following the instructions 
-<a href="https://brew.sh/" target="_blank" rel="noopener">here</a>.</li>
-<li>The current version of the homepage works with hugo version 0.55.5. To install this particular version, run the following commands (see 
-<a href="https://www.fernandomc.com/posts/brew-install-legacy-hugo-site-generator/" target="_blank" rel="noopener">this post</a> for more info).</li>
+<li>Create a github account <a href="https://github.com/">here</a>.</li>
+<li>Ask Simeon (<a href="mailto:simeon.lisovski@gmail.com">simeon.lisovski@gmail.com</a>) to be added as a collaborator to the repo.</li>
 </ul>
-<pre><code>brew unlink hugo
-brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/2d7e602ad4c26d1d509e5f6c17fd5911323788a3/Formula/hugo.rb
-</code></pre>
-<h2 id="the-research-project-folder">The research project folder</h2>
+</div>
+<div id="in-r-studio" class="section level1">
+<h1><span class="header-section-number">3</span> In R Studio</h1>
+<ul>
+<li>Go to File -&gt; New Project</li>
+<li>Select, <em>Version Control</em> -&gt; <em>Git</em></li>
+<li>Copy paste <code>https://github.com/slisovski/GeoX_autumnSchool2020</code> into the Repository URL box, change the directory if nessesary and press <em>Create Project</em>.</li>
+</ul>
+<p>R studio will pull the entire website directory into the specified path.</p>
+<p>The important folder within the directory is the <code>content</code> folder:</p>
 <pre><code>...
 ├── content
 │   ├── home
 │   ├── info
+│   ├── mentor
+│   ├── program
 │   ├── project
 │   └── projects
-...
-</code></pre>
+...</code></pre>
 <ul>
-<li><code>content</code>: contains markdown files used to render the page
+<li><code>content</code>: contains .md or .Rmd files used to render the page
 <ul>
-<li><code>home</code>: all widgets displayed on the first page</li>
+<li><code>home</code>: all sites displayed on the first page</li>
 <li><code>info</code>: this site</li>
+<li><code>mentor</code>: the become a mentor site</li>
+<li><code>program</code>: the program site</li>
 <li><code>project</code>: the project folders</li>
 <li><code>projects</code>: widget for project site</li>
+</ul></li>
 </ul>
-</li>
-</ul>
-<h3 id="change-your-project-site">Change your project site</h3>
+<div id="change-your-project-site" class="section level2">
+<h2><span class="header-section-number">3.1</span> Change your project site</h2>
+<p>You can now start and open e.g. your research project site, make changes etc. Once you are finished, you can comit your changes via the <em>Git</em> window in R Studio. Here, you will see, all files that you changed. Select the one you want to push to the respository and to the website, provide some information on your changes and press commit. The final step is to <em>Push</em> your commits.</p>
+<p>To avoid conflicts between pushes from several people working on the very same document. You can create a <em>New Branch</em> in the git window. Give it a sensible name (e.g. your username) and commit as well as push all changes into this branch. I will keep track of these changes and merge them into the masater branch.</p>
+<p>If you have any questions, feel free to ask!</p>
+</div>
+</div>
+<div id="caveats-disclaimers-etc." class="section level1">
+<h1><span class="header-section-number">4</span> Caveats, disclaimers, etc.</h1>
+<p>Even with all the resources listed above, getting up and running takes a few tries. Here are some additional places to get started:</p>
 <ul>
-<li>In the project folder you will find the index.md file.</li>
-<li>Make changes (include text, images etc.)</li>
+<li>For Git: <a href="http://happygitwithr.com">Happy Git with R</a> by Jenny Bryan et al.</li>
+<li>For RStudio: <a href="https://www.datacamp.com/courses/working-with-the-rstudio-ide-part-1">DataCamp’s Working with the RStudio IDE (free)</a> by Garrett Grolemund</li>
 </ul>
-<h3 id="commit-changes-and-push-to-repository">Commit changes and push to repository.</h3>
+<p>On a mac you may also need <a href="https://developer.apple.com/xcode/">Xcode</a> and <a href="https://brew.sh">Homebrew</a> installed- <a href="https://bookdown.org/yihui/blogdown/installation.html">you will probably need these to download Hugo</a>. If you don’t have either but are on a mac, this link may help:</p>
+<ul>
+<li><a href="https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/">How to install Xcode, Homebrew, Git, RVM, Ruby &amp; Rails on Mac OS X</a></li>
+</ul>
+</div>
 
     </div>
 
@@ -603,6 +632,12 @@ brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/2d7e602ad4
 
 
 
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/blogdown/">blogdown</a>
+  
+</div>
 
 
 
