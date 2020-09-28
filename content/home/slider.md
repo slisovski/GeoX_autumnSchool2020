@@ -7,11 +7,11 @@ weight = 20  # Order that this section will appear.
 
 # Slide interval.
 # Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).
-interval = false
+interval = 5000
 
 # Slide height (optional).
 # E.g. `500px` for 500 pixels or `calc(100vh - 70px)` for full screen.
-height = "350px"
+height = "300px"
 
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
@@ -24,7 +24,7 @@ height = "350px"
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
   overlay_color = "#404040"  # An HTML color value.
   overlay_img = "headers/Seas.png"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.2  # Darken the image. Value in range 0-1.
+  overlay_filter = 0.1  # Darken the image. Value in range 0-1.
 
   # Call to action button (optional).
   #   Activate the button by specifying a URL and button label below.
@@ -44,7 +44,7 @@ height = "350px"
   overlay_filter = 0.2  # Darken the image. Value in range 0-1.
   
   cta_label = "see project"
-  cta_url = "/projects/causality"
+  cta_url = "/project/causality"
   cta_icon_pack = "fas"
   cta_icon = "file-alt"
   
@@ -55,7 +55,7 @@ height = "350px"
   align = "centre"
 
   overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/geoethics.png"  # Image path relative to your `static/img/` folder.
+  overlay_img = "/headers/geoethics.png"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.2  # Darken the image. Value in range 0-1.
   
   cta_label = "see project"
@@ -69,7 +69,7 @@ height = "350px"
   align = "left"
 
   overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/Community.png"  # Image path relative to your `static/img/` folder.
+  overlay_img = "/headers/Community.png"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.2  # Darken the image. Value in range 0-1.
   
   cta_label = "see project"
@@ -83,7 +83,7 @@ height = "350px"
   align = "right"
 
   overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/data.png"  # Image path relative to your `static/img/` folder.
+  overlay_img = "/headers/data.png"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.2  # Darken the image. Value in range 0-1.
   
   cta_label = "see project"
@@ -97,7 +97,7 @@ height = "350px"
   align = "left"
 
   overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/dinos.png"  # Image path relative to your `static/img/` folder.
+  overlay_img = "/headers/dinos.png"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.2  # Darken the image. Value in range 0-1.
   
   cta_label = "see project"
