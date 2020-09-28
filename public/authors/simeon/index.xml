@@ -13,6 +13,56 @@
     </image>
     
     <item>
+      <title>Mentorship</title>
+      <link>/mentor/</link>
+      <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/mentor/</guid>
+      <description>
+
+
+&lt;p&gt;We invite all Geo.X supervisors and seniors to participate in our 2020 Autumn School. There are several (not mutually exclusive) options for your participation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Take part in the full 2020 Autumn School&lt;/li&gt;
+&lt;li&gt;Join the Roadmap and Panel discussion (Tuesday) as well as the final presentation (Friday). Either in persion or via video call&lt;/li&gt;
+&lt;li&gt;Become a mentor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;what-is-a-mentor&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;What is a mentor&lt;/h1&gt;
+&lt;p&gt;As a mentor, you can sign in using the below form. You can either serve as a mentor for a specific research challenge or provide input across challenges with regards to your expertise. We ask you to be available for a video chat at a certain time in the afternoons between the 6th an the 8th of October (please indicate your availability below). The groups can then present their work and ask for your opinion/help/input. Please indicate the research challenge you would like ot mentor, or provide keywords that will help the groups identify your expertise.&lt;/p&gt;
+
+&lt;form name=&#34;contact&#34; class=&#34;contact-form width-normal&#34; action=&#34;/about/&#34; method=&#34;POST&#34; data-netlify=&#34;true&#34;&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;form-name&#34; value=&#34;contact&#34; /&gt;
+    
+    &lt;!-- Text input--&gt;
+    &lt;div class=&#34;form-group&#34;&gt;
+        &lt;label class=&#34;col-md-4 control-label&#34; for=&#34;Name&#34;&gt;&lt;/label&gt;
+        &lt;div class=&#34;col-md-4&#34;&gt;
+            &lt;input id=&#34;contact-form-name&#34; name=&#34;Name&#34; type=&#34;text&#34; placeholder=&#34;Name&#34; class=&#34;form-control input-md&#34; required=&#34;&#34; autocomplete=&#34;off&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- Text input--&gt;
+    &lt;div class=&#34;form-group&#34;&gt;
+        &lt;label class=&#34;col-md-4 control-label&#34; for=&#34;Email&#34;&gt;&lt;/label&gt;
+        &lt;div class=&#34;col-md-4&#34;&gt;
+            &lt;input id=&#34;contact-form-email&#34; name=&#34;Email&#34; type=&#34;email&#34; placeholder=&#34;Email Address&#34; class=&#34;form-control input-md&#34; required=&#34;&#34; autocomplete=&#34;off&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- Textarea --&gt;
+    &lt;div class=&#34;form-group&#34;&gt;
+        &lt;label class=&#34;col-md-4 control-label&#34; for=&#34;&#34;&gt;&lt;/label&gt;
+        &lt;textarea class=&#34;form-control&#34; id=&#34;contact-form-message&#34; name=&#34;Message&#34; placeholder=&#34;Please indicate one or more research challenge(s), up to 3 keywords and your time availability.&#34; rows=&#34;8&#34;&gt;&lt;/textarea&gt;
+    &lt;/div&gt;
+    &lt;!-- Button --&gt;
+    &lt;div class=&#34;form-group&#34;&gt;
+        &lt;button type=&#34;submit&#34; value=&#34;Submit&#34; id=&#34;Form-submit&#34;&gt;Submit&lt;/button&gt;
+    &lt;/div&gt;
+&lt;/form&gt;
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Website contributions</title>
       <link>/info/</link>
       <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
