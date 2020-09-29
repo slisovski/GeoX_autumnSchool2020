@@ -1,6 +1,6 @@
 ---
 aliases: [arm]
-title: "Involving local communities interactively in the research stage of  data acquisition"
+title: "Involving local communities interactively in the research stage of data acquisition"
 summary: ""
 abstract: ""
 date: "2020-09-24T00:00:00Z"
