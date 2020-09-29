@@ -1,0 +1,38 @@
+---
+title: Orga team
+---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(eval = FALSE, collapse = TRUE, comment = NA, tidy = FALSE)
+knitr::opts_chunk$set(fig.width=6, fig.height=6) 
+```
+
+<!--html_preserve-->
+<img class="img-responsive" src="lisa.png" alt="Whoopsies, this is my bad side!" style="margin: 0 auto; box-shadow: none;">
+<!--/html_preserve-->
+
+<center>Lisa Rheinheimer ([mail](lisa.rheinheimer@gfz-potsdam.de))<center>
+
+<!--html_preserve-->
+<img class="img-responsive" src="tabea.png" alt="Whoopsies, this is my bad side!" style="margin: 0 auto; box-shadow: none;">
+<!--/html_preserve-->
+
+<center>Tabea Rettelbach ([mail](tabea.rettelbach@awi.de))<center>
+
+<!--html_preserve-->
+<img class="img-responsive" src="theresa.png" alt="Whoopsies, this is my bad side!" style="margin: 0 auto; box-shadow: none;">
+<!--/html_preserve-->
+
+<center>Theresa Frommen ([mail](theresa.frommen@hu.de))<center>
+
+<!--html_preserve-->
+<img class="img-responsive" src="niklas.png" alt="Whoopsies, this is my bad side!" style="margin: 0 auto; box-shadow: none;">
+<!--/html_preserve-->
+
+<center>Niklas Kitzmann ([mail](kitzmann@pik-potsdam.de))<center>
+
+<!--html_preserve-->
+<img class="img-responsive" src="simeon.png" alt="Whoopsies, this is my bad side!" style="margin: 0 auto; box-shadow: none;">
+<!--/html_preserve-->
+
+<center>Simeon Lisovski ([mail](simeon.lisovski@awi.de))<center>
